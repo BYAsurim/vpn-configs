@@ -28,4 +28,18 @@ powershell -Command "Get-Content '_sorted_temp.txt' | Where-Object { $_.Trim() -
 del _sorted_temp.txt
 
 echo [%date% %time%] Готово! Лучшие 100 конфигов сохранены в best_100.txt
+
+git add best_100.txt
+git commit -m "Автообновление: %date% %time%"
+
+echo [%date% %time%] Отправляю на GitHub...
+
+git push origin main
+
+if %errorlevel% equ 0 (
+    echo ✅ Push на GitHub прошёл успешно!
+) else (
+    echo ❌ ОШИБКА Push! Проверьте подключение к интернету и права доступа.
+)
+
 pause
