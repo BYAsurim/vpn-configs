@@ -65,11 +65,11 @@ xray-knife subs add --url "https://raw.githubusercontent.com/zieng2/wl/main/vles
 xray-knife subs add --url "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt"
 xray-knife subs add --url "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
 xray-knife subs add --url "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
-xray-knife subs add --url "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Sub4.txt"
-xray-knife subs add --url "https://raw.githubusercontent.com/nikita29a/FreeProxyList/main/mirror/5.txt"
-xray-knife subs add --url "https://raw.githubusercontent.com/nikita29a/FreeProxyList/main/mirror/6.txt"
-xray-knife subs add --url "https://raw.githubusercontent.com/nikita29a/FreeProxyList/main/mirror/8.txt"
-xray-knife subs add --url "https://raw.githubusercontent.com/nikita29a/FreeProxyList/main/mirror/17.txt"
+xray-knife subs add --url "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt"
+xray-knife subs add --url "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/mix"
+xray-knife subs add --url "https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt"
+xray-knife subs add --url "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Sub1.txt"
+
 
 echo [%date% %time%] Скачиваю все конфиги...
 xray-knife subs fetch --all
